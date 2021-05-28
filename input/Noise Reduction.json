@@ -1,10 +1,10 @@
 {
     "spectrum": {
         "show": "true",
-        "n-points": "100",
+        "n-points": "150",
         "height": "100",
         "use-custom-color": "false",
-        "fill": "true",
+        "fill": "false",
         "show-bar-border": "true",
         "sampling-freq": "10",
         "line-width": "2",
