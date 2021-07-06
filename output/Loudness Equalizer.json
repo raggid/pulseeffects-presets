@@ -34,6 +34,7 @@
             "equalizer",
             "convolver",
             "compressor",
+            "loudness",
             "bass_enhancer",
             "limiter",
             "filter",
@@ -42,7 +43,6 @@
             "crossfeed",
             "maximizer",
             "multiband_compressor",
-            "loudness",
             "autogain",
             "gate",
             "multiband_gate",
@@ -455,11 +455,11 @@
             }
         },
         "loudness": {
-            "state": "false",
+            "state": "true",
             "fft": "4096",
             "std": "ISO226-2003",
             "input": "0",
-            "volume": "0"
+            "volume": "6.9999999999999911"
         },
         "multiband_gate": {
             "state": "false",
@@ -639,7 +639,7 @@
             "state": "false",
             "input-gain": "0",
             "output-gain": "0",
-            "model-path": ""
+            "model-path": "Standard RNNoise Model"
         }
     }
 }
